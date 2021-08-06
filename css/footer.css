@@ -1,0 +1,19 @@
+.artigos{
+    height: 50%;
+    margin-left: 20%;
+}
+#boletim{
+     height: 20px;
+     border-radius: 5px;
+}
+
+.skew{
+    margin-top: -200px;
+    padding: 200px 0;
+    transform: skew(5deg);
+    background-color: rgb(230, 139, 103);
+}
+.content{
+    transform: skew(0deg, -10deg);
+    background-color: brown;
+}
