@@ -2,18 +2,56 @@
     height: 50%;
     margin-left: 20%;
 }
-#boletim{
-     height: 20px;
+.artg{
+     height: 50px;
      border-radius: 5px;
 }
+#boletim{
+    margin-left: 15%;
+}
+#iptu{
+    width: 15% ;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#artista{
+    width: 15%;
+margin-right: 3%;  
+}
 
-.skew{
-    margin-top: -200px;
-    padding: 200px 0;
-    transform: skew(5deg);
-    background-color: rgb(230, 139, 103);
+
+ .skew{
+     display: flex;
+     
+     color: #666;
+     
+     line-height: 1.6;
+    margin-top: 2px;
+    padding-bottom: 2%;
+    transform: skew(0deg, 2deg);
+    background-color: rgb(248, 207, 192);
+    margin-bottom: 0%;
 }
 .content{
-    transform: skew(0deg, -10deg);
+    margin-left: 10%;
+  position: relative;
+}
+#content1{
+    margin-right: 5%;
+
+
+}
+.mod{
+    margin-top: 0%;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(248, 207, 192);
+    transform: skew(0deg, 2deg);
+
+}
+.footer{
+    
+    transform: skew(0deg, -2deg);
     background-color: brown;
+    padding-top: 7%;
 }
