@@ -44,27 +44,48 @@
  
   
 }
-#obra1{
-  width:60%;
-  margin-right: %;
+
+.card{
+  display: block;
+  width: 300px;
   border-radius: 5px;
+  box-shadow: 1px, 1px;
+  margin-left 10%;
+  color: grey;
+}
+
+#obra1{
+  width:100%;
+  height: 60%;
+  margin-right: 2%;
+  border-radius: 5px;
+}
+.pref{
+  display: block;
+  width: 300px;
+ 
 }
 #pref1{
-  width: 60%;
-  border-radius: 5px;
+  width: 100%;
+  height: 60%;
+  color: grey;
+  font-weight: bold;
+  border-radius:2px;
+
 }
 #esco1{
-  width: 60%;
+  width: 100%;
+  height: 60%;
   border-radius: 5px;
 
 }
 
-.card {
+/*<!-- .card {
   width: 30%;
   margin-right: 26px;
   border-radius: 5px;
   
-}
+}*/
 .title{
   margin-left: 40%;
   border-block: 1px;
@@ -95,6 +116,41 @@
   border-color: darkred;
   border-radius: 12px;
 }
+.card2{
+  
+}
+.card3{
+  margin-top: 0%;
+  background-color: #A02E0E;
+  width: 70%;
+  height: 100%;
+  
+}
+
+.turismo{
+  display: inline;
+  height: 85%;
+
+  
+  
+}
+.tur{
+  height: 100%;
+  
+}
+.galeria-turismo{
+  display: inline;
+  height: 50%;
+  margin-left: 20%;
+  
+  
+}
+.gal{
+  height: 100%;
+  width: 15%;
+ 
+}
+
 
 
 

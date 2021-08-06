@@ -1,5 +1,10 @@
 
-@media screen and (min-width:480px) {
+@media screen and (max-width:480px) {
+  div.lheader{
+   width: 100%;
+   margin:0%;
+  }
+}
   
 
 body {
