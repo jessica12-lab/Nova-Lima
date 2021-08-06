@@ -24,11 +24,9 @@ margin-right: 3%;
      display: flex;
      
      color: #666;
-     
-     line-height: 1.6;
-    margin-top: 2px;
+    margin-top: 2%;
     padding-bottom: 2%;
-    transform: skew(0deg, 2deg);
+    transform: skew(0deg, 4deg);
     background-color: rgb(248, 207, 192);
     margin-bottom: 0%;
 }
@@ -42,16 +40,35 @@ margin-right: 3%;
 
 }
 .mod{
-    margin-top: 0%;
-    height: 50px;
+   
+    margin-bottom: -5%;
+    margin-top: -5%;
+    height: 200px;
     width: 100%;
     background-color: rgb(248, 207, 192);
-    transform: skew(0deg, 2deg);
+    transform: (-1deg, 2deg);
 
 }
 .footer{
-    
-    transform: skew(0deg, -2deg);
+  margin-bottom: -50%;
+  transform-origin: left;
+    transform: skew(0deg, -3deg);
     background-color: brown;
     padding-top: 7%;
+}
+.mod2{
+ margin-top: -5%;
+ margin-bottom: 0px;
+ background-color: brown;
+ height: 10px;
+ width: 100%;
+}
+.edit{
+  display: inline-block;
+  border-bottom:solid 2px;
+  border-color: coral;
+  color:gray;
+  font-weight: bold;
+  transform: skewY(-4deg);
+  
 }

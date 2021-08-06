@@ -66,15 +66,20 @@
   
 }
 .title{
-  border-bottom: 1px;
+  margin-left: 40%;
+  border-block: 1px;
+  margin-right: 40%;
+ align-self: center;
+ float: center;
   
 }
 
 .titulos {
   text-align: center;
   color: gray;
-  border-bottom-color: brown;
-  border-bottom: 1px;
+  border-bottom-color: orangered;
+  border-bottom: solid 1px;
+  border-spacing: 3px;
   font-size: 20px;
 }
 
@@ -86,6 +91,7 @@
   margin-left: 45%;
   color: white;
   font-size: 15px;
+  border-bottom: solid 2px;
   border-color: darkred;
   border-radius: 12px;
 }
@@ -93,6 +99,8 @@
 
 
 
+
+  
 
 .footer{
   display: flex;
