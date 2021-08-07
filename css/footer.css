@@ -1,74 +1,118 @@
-.artigos{
-    height: 50%;
-    margin-left: 20%;
-}
-.artg{
-     height: 50px;
-     border-radius: 5px;
-}
-#boletim{
-    margin-left: 15%;
-}
-#iptu{
-    width: 15% ;
-    margin-left: 1%;
-    margin-right: 1%;
-}
-#artista{
-    width: 15%;
-margin-right: 3%;  
+.footer {
+    display: flex;
+    padding-bottom: 5%;
+    background-color: rgb(255, 223, 164);
 }
 
-
- .skew{
-     display: flex;
-     
-     color: #666;
-    margin-top: 2%;
-    padding-bottom: 2%;
-    transform: skew(0deg, 4deg);
-    background-color: rgb(248, 207, 192);
-    margin-bottom: 0%;
-}
-.content{
-    margin-left: 10%;
-  position: relative;
-}
-#content1{
-    margin-right: 5%;
-
+.footer1 {
+    display: block;
+    margin-left: 2%;
+    padding-right: 3%;
+    margin-top: 5%;
+    color: aliceblue;
 
 }
-.mod{
-   
-    margin-bottom: -5%;
-    margin-top: -5%;
-    height: 200px;
+
+h4 {
+
+    color: gray;
+}
+
+.span {
+    border-bottom: solid 1px;
+    border-color: red;
+    padding-top: 0%;
+    margin-bottom: 5%;
+
+}
+
+.footer12 {
+    display: flex;
+    margin-top: 3%;
     width: 100%;
-    background-color: rgb(248, 207, 192);
-    transform: (-1deg, 2deg);
+    color: gray;
+    font-size: small;
 
 }
-.footer{
-  margin-bottom: -50%;
-  transform-origin: left;
-    transform: skew(0deg, -3deg);
-    background-color: brown;
-    padding-top: 7%;
+
+.foot {
+    display: flex;
+    text-decoration: none;
+    padding-bottom: 0.2%;
+    border-bottom: solid 1px;
+    border-color: rgb(202, 61, 9);
+    color: gray;
+
 }
-.mod2{
- margin-top: -5%;
- margin-bottom: 0px;
- background-color: brown;
- height: 10px;
- width: 100%;
+
+
+.button {
+    background-color: red;
+    border-color: red;
+    border-radius: 4px;
+    margin-right: 2%;
+
 }
-.edit{
-  display: inline-block;
-  border-bottom:solid 2px;
-  border-color: coral;
-  color:gray;
-  font-weight: bold;
-  transform: skewY(-4deg);
-  
+
+.div-rodape {
+    padding-top: 5%;
+    display: flex;
+    background-color: rgb(202, 61, 9);
+
+}
+
+#img-rodape {
+    width: 30%;
+    border-radius: 100%;
+    
+
+
+}
+
+.rodape1 {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 1%;
+    padding-bottom: 3%;
+}
+
+.p-rodape {
+    padding-top: 2%;
+    margin-left: 2%;
+    color: white;
+    font-size: small;
+
+}
+
+.spn-rodape {
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+#rodape{
+    color: white;
+    font-size: large;
+}
+.i-rodape{
+    list-style: none;
+
+}
+.li-rodape{
+    text-decoration: none;    
+    color: white;
+    font-size: small;
+    padding-top: 5%;   
+    
+}
+#li-rodape{
+padding-right: 10%;  
+}
+
+#rodape-3{
+color: white;
+font-size: small;
+    
+}
+#spn2{
+    font-size: large;
 }
