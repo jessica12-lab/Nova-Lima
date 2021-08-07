@@ -1,8 +1,10 @@
 .cards{
     
     background-color: darkred;
-    height: 80%;
+    height: 90%;
     width: 100%;
+    padding-bottom: 1%;
+
 }
 .card{
     display: flex;
@@ -30,14 +32,58 @@
     margin-bottom: 3%;
 }
 .galeria{
-    margin-left: 8%;
-    margin-bottom: 3%;
-    height: 50%;
+    display: flex;
+    margin-left: 10%;
+    margin-bottom:2%;
+    height: 100%;
+    width: 80%;
+
+}
+.card-galeria{
+    display: flex;
+    width: 50%;
+    margin-right: 2%;
 }
 .galery{
-    width: 23%;
-    height: 50%;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+  }
+  .galery:hover {
+    -webkit-transform:scale(1.2);
+    transform:scale(1.6);
+  }
+.galery{
+    display: inline;
+    margin-top: 2%;
+    margin-right: 3%;
+    width: 80%;
+    height: 60%;
+    border-radius: 5px;
 }
+.icones{
+    margin-left: 45%;
+    text-decoration: none;
+}
+.btn-galeria1{
+    width: 10%;
+    border: solid 1px;
+    border-color: white;
+    border-radius:25px;   
+    margin-left: 42%;
+    padding: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    opacity: 0.6;
+}
+
+.btn-galeria{
+    margin-left: 15%;
+    color:white;
+    text-decoration: none;
+
+}
+
+
 .sm-btn{
     display: flex;
     margin-left: 22%;
