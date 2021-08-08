@@ -193,10 +193,11 @@ html {
     border-color: red;
 }
 
-#title {
+.titles {
     margin-left: 38%;
     color: gray;
 }
+
 
 .section2 {
     display: block;
