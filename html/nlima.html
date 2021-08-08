@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" />
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/section.css">
-    <link rel="stylesheet" href="/css/galeria.css">
-    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/section.css">
+    <link rel="stylesheet" href="../css/galeria.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <!-- <link rel="stylesheet" href="../css/img.css"> -->
     <title>Nova Lima</title>
 </head>
 
@@ -30,7 +31,7 @@
 
             <div class="lista">
 
-                <a class="list" href="#">conteúdo1</a>
+                <a class="list" href="#section2">conteúdo1</a>
                 <a class="list" id="list2" href="#"> menu2</a>
                 <a class="list" href="#"> busca3 </a>
                 <a class="list" href="#"> rodapé</a>
@@ -41,28 +42,27 @@
     <div class="colom" id="colom">
         <div class="brasao">
 
-            <img class="bras" src="/imagens/logo.jpg" alt="Brasão da cidade">
+            <img class="bras" src="../imagens/logo.jpg" alt="Brasão da cidade">
 
             <p class="nome">Prefeitura Municipal de <br> <span class="spn" id="spn">Nova Lima</span></p>
 
         </div>
 
         <div class="input">
-            <div>
-                <input type="text" placeholder="Pesquise no site">
-                <label for=""><i class="fas fa-search"></i>
-                </label>
+            <div  class="input-1" >
+                <input class="in" type="text" placeholder="Pesquise no site">
+           <button class="i"><i class="fas fa-search"></i></button>
+
             </div>
 
-            <p>
-                <!-- data -->
+            <p class="date">
+                2 de Março de 2021
             </p>
-            <div>
-
-                <i class="fab fa-facebook"></i>
-                <i class="fab fa-twitter"></i>
-                <i class="fab fa-google"></i>
-                <i class="fab fa-instagram"></i>
+            <div class="icons">
+                <i class="fab1 fab fa-facebook"></i>
+                <i class=" fab2 fab fa-twitter"></i>
+                <i class="fab3 fab fa-google"></i>
+                <i class="fab4 fab fa-instagram"></i>
             </div>
         </div>
     </div>
@@ -81,7 +81,7 @@
     </div>
     <!-- fim do cabeçalho -->
 
-    <img id="bannr" src="/imagens/BANNER.jpg" alt="Banner">
+    <img id="bannr" src="../imagens/BANNER.jpg" alt="Banner">
 
 
 
@@ -89,7 +89,7 @@
         <h3 id="title"> Serviços mais buscados </h3>
         <div class="title"></div>
 
-        <div class="section2">
+        <div class="section2" id="#section2">
             <div class="servicos">
                 <a class="serv" href="#"> <i class="fas fa-search"></i> Portal da transparência</a>
                 <a class="serv1" href="#"><i class="fas fa-poll-h"></i>2° via IPTU</a>
@@ -124,23 +124,23 @@
         <div class="article">
             <div class="article1">
                 <!-- artigos notícias -->
-                <img class="img-artigo" src="/imagens/obra.jpg" alt="Novas obras pela prefeitura">
+                <img class="img-artigo" src="../imagens/obra.jpg" alt="Novas obras pela prefeitura">
                 <div class="article2">
                     <h4>Prefeitura assina contrato para novas obras</h4>
 
-                    <p>
-                        <!--Date-->
+                    <p class="date">
+                     30 de Março de 2021
                     </p>
                     <a class="btn1" href="#">Leia +</a>
                 </div>
             </div>
             <div class="article1">
                 <!-- artigos notícias -->
-                <img class="img-artigo" src="/imagens/prefeitura.jpg" alt="Prefeitura da cidade">
+                <img class="img-artigo" src="../imagens/prefeitura.jpg" alt="Prefeitura da cidade">
                 <div class="article2">
                     <h4>Mudanças na cidade começam semana que vem</h4>
-                    <p>
-                        <!--Date-->
+                    <p class="date ">
+                       30 de Março de 2021
                     </p>
                     <a class="btn1" href="#">Leia +</a>
                 </div>
@@ -148,11 +148,11 @@
             </div>
             <div class="article1">
                 <!-- artigos notícias -->
-                <img class="img-artigo" src="/imagens/escola.jpg" alt="Volta as Aulas">
+                <img class="img-artigo" src="../imagens/escola.jpg" alt="Volta as Aulas">
                 <div class="article2">
                     <h4>Volta as aulas é adiada na cidade e região de MG</h4>
-                    <p>
-                        <!--Date-->
+                    <p class="date " >
+                       30 de Março de 2021
                     </p>
                     <a class="btn1" href="#">Leia +</a>
                 </div>
@@ -178,42 +178,39 @@
 
     <section class="cards">
         <div class="card">
-            <div style="background-image: url(/imagens/cachoeira2.jpg);" class="card1">
-                <img class="img-card" src="/imagens/cachoeira.jpg" alt="Cachoeira">
-                <a href="#">Pontos turísiticos</a>
-            </div>
-            <div class="card1">
-                <img class="img-card" src="/imagens/comida-banner.jpg" alt="Comida em um restaurante">
-                <a href="#">Onde comer</a>
-            </div>
 
-            <div class="card1">
-                <img class="img-card" src="/imagens/hsp.jpg" alt="Quarto de Hotel da cidade">
-                <a href="#">Onde se hospedar</a>
+            <div class="card__item bg__1">
+                <img class="bg" src="../imagens/cachoeira2.jpg" alt="#">
+                <a class="btn-img" href="">Pontos Turísticos</a>
+
+                <img class="bg" src="../imagens/hsp.jpg" alt="">
+                <a class="btn-img" href="">Onde se hospedar</a>
+
+                <img class="bg" src="../imagens/comida-banner.jpg" alt="">
+                <a class="btn-img"  href="">Onde comer</a>
             </div>
-        </div>
         <div class="Titulos">
             <h3>
                 Galeria
             </h3>
         </div>
         <div class="tit"></div>
-        <!------ galeria      ----------------------------------------------------------->
+        <!------ galeria-->
         <div class="galeria">
            <div class="card-galeria">
-             <img class="galery" src="/imagens/comida galeria.jpg" alt="Comida da cidade">
+             <img class="galery" src="../imagens/comida galeria.jpg" alt="Comida da cidade">
             </div>
            <div class="card-galeria">
-            <img class="galery" src="/imagens/prefeitura.jpg" alt="Prefeitura"> </div>
+            <img class="galery" src="../imagens/prefeitura.jpg" alt="Prefeitura"> </div>
            <div class="card-galeria">
-               <img class="galery" id src="/imagens/turismo-galeria.jpg" alt="Praça da cidade"> 
+               <img class="galery" id src="../imagens/turismo-galeria.jpg" alt="Praça da cidade"> 
             </div>
           <div class="card-galeria"> 
-               <img class="galery" src="/imagens/Turismo.jpeg" alt="Alunos na escola">
+               <img class="galery" src="../imagens/Turismo.jpeg" alt="Alunos na escola">
             </div>
         </div>
 
-        <div class="icones">
+        <div class="iconis">
             <a href="#"><i class="fab fa-facebook"></i></a>
             <a href="#"> <i class="fab fa-twitter"></i></a>
             <a href="#"> <i class="fab fa-google"></i></a>
@@ -235,37 +232,37 @@
     <article>
         <div class="article">
             <div class="article1">
-                <img class="img-artigo" src="/imagens/feira-do-livro.jpg" alt="Feira do livro">
+                <img class="img-artigo" src="../imagens/feira-do-livro.jpg" alt="Feira do livro">
                 <div class="article2">
 
                     <h4>
                         Feira do livro vai de 5 à 20 de Abril
                     </h4>
 
-                    <p>
-                        <!--Date-->
+                    <p class="date">
+                       30 de Março de 2021
                     </p>
                     <a class="btn1" href="#">Leia +</a>
                 </div>
             </div>
             <div class="article1">
-                <img class="img-artigo" src="/imagens/alunos-tec.jpg" alt="Alunos na tecnologia">
+                <img class="img-artigo" src="../imagens/alunos-tec.jpg" alt="Alunos na tecnologia">
                 <div class="article2">
                     <h4>Apresentação de TI online para alunos do ensino médio</h4>
-                    <p>
-                        <!--Date-->
+                    <p class="date">
+                        30 de Março de 2021
                     </p>
                     <a class="btn1" href="#">Leia +</a>
                 </div>
             </div>
             <div class="article1">
-                <img class="img-artigo" src="/imagens/empregabilidade.jpg" alt="Feira de empregabilidade">
+                <img class="img-artigo" src="../imagens/empregabilidade.jpg" alt="Feira de empregabilidade">
                 <div class="article2">
                     <h4>
                         Feira de empregabilidade e Tecnologia
                     </h4>
-                    <p>
-                        <!--Date-->
+                    <p class="date">
+                        30 de Março de 2021
                     </p>
                     <a class="btn1" href="#">Leia +</a>
                 </div>
@@ -275,16 +272,16 @@
         </div>
     </article>
     <div class="sm-btn">
-       <div class="peq-btn"> <a href="#"><img class="peq-buttons" src="/imagens/boletim-covid.jpg" alt="Boletim Covid"></a></div>
+       <div class="peq-btn"> <a href="#"><img class="peq-buttons" src="../imagens/boletim-covid.jpg" alt="Boletim Covid"></a></div>
 
        <div class="peq-btn">
-           <a href="#"><img class="peq-buttons" src="/imagens/iptu.jpg" alt="Iptu"></a>
+           <a href="#"><img class="peq-buttons" src="../imagens/iptu.jpg" alt="Iptu"></a>
         </div>
-       <div class="peq-btn"><a href="#"><img class="peq-buttons" src="/imagens/artista.jpg" alt="Artistas"></a>
+       <div class="peq-btn"><a href="#"><img class="peq-buttons" src="../imagens/artista.jpg" alt="Artistas"></a>
     </div>
     </div>
 
-    <section>
+    <section class="back">
         <div class="footer">
 
             <div class="footer1">
@@ -374,11 +371,12 @@
             <!-- vazia -->
         </div>
     </section>
-
-    <footer>
+<div class="futter5" >
+    <footer class="back2">
+    
         <div class="div-rodape">
             <div class="rodape1">
-                <img id="img-rodape" src="/imagens/logo.jpg" alt="Brasão da cidade">         
+                <img id="img-rodape" src="../imagens/logo.jpg" alt="Brasão da cidade">         
                 <p class="p-rodape">Prefeitura municipal de <br />
                     <span class="spn-rodape"> Nova Lima
                     </span>
@@ -400,7 +398,7 @@
             </div>
         </div>
     </footer>
-
+</div>
 
 
 

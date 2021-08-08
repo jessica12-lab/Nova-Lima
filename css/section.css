@@ -1,4 +1,14 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.date{
+    margin-right: 1%;
+    font-size: smaller;
+    color: gray;
+    padding-bottom: 10%;
+}
 .article{
     box-sizing: border-box;
     display: flex;
@@ -22,20 +32,19 @@
 .article2{
     color: rgb(78, 76, 76);
     margin-left: 4%;  
+    
 }
 
-    
 
 .btn1{
-    margin-top: 43%;
-    box-sizing:content-box;
+
     border: solid 2px red;
     border-radius: 20px;
     padding:3%;
     color: red;
     text-decoration: none;
     font-size: smaller;
-    
+    margin-bottom: 5%;
 }
 .section3{
     margin-top: 2%;
