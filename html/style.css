@@ -124,10 +124,16 @@ html {
 
 .fas {
     color: #f0f8ff;
+  
 }
 
 .fab1 {
     color: blue
+}
+.fas-s{
+    background-color: orangered;
+    padding: 3%;
+    border-radius: 5px;
 }
 
 .fab {

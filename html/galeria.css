@@ -29,17 +29,36 @@ a:hover{
         height: 20vh;
     
 }
+.btn_img2{
+    background-color: rgb(161, 59, 59);
+    padding-top: 0.5%;
+    width: 15%;
+    text-align: center;
+}
+.btn_img1{
+    background-color: orangered;
+    border-color: orangered;
+    width: 15%;
+    text-align: center;
+    padding-top: 0.5%;
+}
+.btn_img3{
+    background-color: green;
+    width: 15%;
+    text-align: center;
+    padding-top: 0.5%;
+
+}
 .btn-img{
   align-items:center;
   margin-left:-12%;
   transform: translate(-80%, -80%);
   margin-top: 6%;
   font-size: 20px;
-  background-color: green;
   text-decoration: none;
   border-radius: 15px;
   color:#f0f8ff;
-  border: solid 1px;
+  
 }
 
 .card1{
@@ -96,7 +115,10 @@ a:hover{
     text-decoration: none;
 }
 .iconis{
-    margin-left: 35%;
+    margin-left: 33%;
+}
+.fab-fc{
+    color: white;
 }
 .btn-galeria1{
     width: 10%;
@@ -122,6 +144,9 @@ a:hover{
     display: flex;
     margin-left: 22%;
     width: 60%;
+}
+.g_sect{
+    padding:5%;
 }
 
 .peq-buttons{
@@ -177,11 +202,15 @@ a:hover{
        padding-top: 15%;
    }
    .Titulos{
-       padding-bottom: 30%;
+       padding-bottom: 4%;
        display: block;
    }
    .sm-btn{
        margin-left: 7%;
+   }
+   .btn-galeria1{
+    width: 10%;
+
    }
     
 
