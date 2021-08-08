@@ -6,8 +6,12 @@ html {
     overflow-x: hidden;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: background 0.5s linear, color 0.5s linear;
 
-
+}
+.dark{
+    background-color: black;
+    color: white;
 }
 
 .container {
@@ -16,7 +20,7 @@ html {
 
 }
 
-#list {
+#list{
     background-color: black;
     border-radius: 8px;
     padding: 6%;
@@ -122,8 +126,11 @@ html {
 
 }
 
-.fas {
+.fas-s {
     color: #f0f8ff;
+    background-color: orange;
+    padding: 2%;
+    border-radius: 3px;
 }
 
 .fab1 {
@@ -301,6 +308,13 @@ html {
     .icons {
         padding: 2%;
         margin: 5%;
+    }
+    .i{
+        padding:15%;
+    }
+    .fas-s{
+        color: black;
+    
     }
    
 

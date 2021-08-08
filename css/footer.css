@@ -141,6 +141,9 @@ font-size: small;
 #spn2{
     font-size: large;
 }
+.fa-download{
+    color: aliceblue;
+}
 @media (max-width:900px) {
     .rodape, .rodapé, .rodape1 {
         width: 100%;
