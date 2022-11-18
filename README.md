@@ -1,4 +1,4 @@
 # Nova Lima 
 
 #### Esse projeto foi um desafio de uma empresa que me solicitou uma landing page.
-Feito com CSS e Html.
+### Feito com CSS e Html.
